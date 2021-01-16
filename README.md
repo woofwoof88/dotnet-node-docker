@@ -24,3 +24,7 @@ docker manifest annotate mocoding/dotnet-node:3.0-10.x mocoding/dotnet-node:3.0-
 docker manifest annotate mocoding/dotnet-node:3.0-10.x mocoding/dotnet-node:3.0-10.x-amd64 --os linux --arch amd64
 docker manifest push mocoding/dotnet-node:3.0-10.x
 ```
+
+# cmd used
+docker build -t fpp-dotnet-sdk-node:0.8 .
+
